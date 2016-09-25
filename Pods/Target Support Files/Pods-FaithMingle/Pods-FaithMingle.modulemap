@@ -1,6 +1,0 @@
-framework module Pods_FaithMingle {
-  umbrella header "Pods-FaithMingle-umbrella.h"
-
-  export *
-  module * { export * }
-}
