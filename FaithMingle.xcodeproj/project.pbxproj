@@ -21,6 +21,7 @@
 		AB62E9371D974BC100D6E325 /* CVCalendar.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB62E9361D974BC100D6E325 /* CVCalendar.framework */; };
 		AB82BACB1D973DF9004EF884 /* AFNetworking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB82BAC91D973DF9004EF884 /* AFNetworking.framework */; };
 		AB82BACC1D973DF9004EF884 /* Calendar_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB82BACA1D973DF9004EF884 /* Calendar_iOS.framework */; };
+		AB9E32511D976CD400F9E84B /* Hello.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB9E32501D976CD400F9E84B /* Hello.swift */; };
 		C81C6DFD05542759BCEEDB85 /* Pods_FaithMingle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A229BF1114B0B3B5C6545341 /* Pods_FaithMingle.framework */; };
 /* End PBXBuildFile section */
 
@@ -48,6 +49,8 @@
 		AB62E9381D974EA200D6E325 /* FaithMingle-Swift.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FaithMingle-Swift.h"; sourceTree = "<group>"; };
 		AB82BAC91D973DF9004EF884 /* AFNetworking.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AFNetworking.framework; path = "../../../../Library/Developer/Xcode/DerivedData/FaithMingle-bekzowngubmkneclkqyqmonwfdra/Build/Products/Debug-iphonesimulator/AFNetworking/AFNetworking.framework"; sourceTree = "<group>"; };
 		AB82BACA1D973DF9004EF884 /* Calendar_iOS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Calendar_iOS.framework; path = "../../../../Library/Developer/Xcode/DerivedData/FaithMingle-bekzowngubmkneclkqyqmonwfdra/Build/Products/Debug-iphonesimulator/Calendar-iOS/Calendar_iOS.framework"; sourceTree = "<group>"; };
+		AB9E324F1D976CD400F9E84B /* FaithMingle-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FaithMingle-Bridging-Header.h"; sourceTree = "<group>"; };
+		AB9E32501D976CD400F9E84B /* Hello.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Hello.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +115,7 @@
 			isa = PBXGroup;
 			children = (
 				AB3E09BD1D972FF200600F0E /* AppDelegate.h */,
+				AB9E32501D976CD400F9E84B /* Hello.swift */,
 				AB3E09BE1D972FF200600F0E /* AppDelegate.m */,
 				AB3E09C01D972FF200600F0E /* FirstViewController.h */,
 				AB3E09C11D972FF200600F0E /* FirstViewController.m */,
@@ -123,6 +127,7 @@
 				AB3E09CE1D972FF200600F0E /* Info.plist */,
 				AB3E09BA1D972FF100600F0E /* Supporting Files */,
 				AB62E9381D974EA200D6E325 /* FaithMingle-Swift.h */,
+				AB9E324F1D976CD400F9E84B /* FaithMingle-Bridging-Header.h */,
 			);
 			path = FaithMingle;
 			sourceTree = "<group>";
@@ -171,6 +176,7 @@
 					AB3E09B61D972FF100600F0E = {
 						CreatedOnToolsVersion = 8.0;
 						DevelopmentTeam = WBBPPH2MW5;
+						LastSwiftMigration = 0800;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -264,6 +270,7 @@
 				AB3E09C51D972FF200600F0E /* EventViewController.m in Sources */,
 				AB3E09BF1D972FF200600F0E /* AppDelegate.m in Sources */,
 				AB3E09C21D972FF200600F0E /* FirstViewController.m in Sources */,
+				AB9E32511D976CD400F9E84B /* Hello.swift in Sources */,
 				AB3E09BC1D972FF200600F0E /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -314,6 +321,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = "";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -361,6 +369,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = "";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -383,6 +392,7 @@
 			baseConfigurationReference = 8A75907722D4C5E46A069D40 /* Pods-FaithMingle.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = WBBPPH2MW5;
 				FRAMEWORK_SEARCH_PATHS = (
@@ -396,6 +406,9 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = ChurchLab.FaithMingle;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "FaithMingle/FaithMingle-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -404,6 +417,7 @@
 			baseConfigurationReference = 4AE4E3AB3C5500B1AB6A89BE /* Pods-FaithMingle.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = WBBPPH2MW5;
 				FRAMEWORK_SEARCH_PATHS = (
@@ -417,6 +431,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = ChurchLab.FaithMingle;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "FaithMingle/FaithMingle-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
