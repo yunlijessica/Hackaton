@@ -1,0 +1,1381 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		038AF846FD8C0D72FA4F10B474E03220 /* CalendarView.m in Sources */ = {isa = PBXBuildFile; fileRef = CC690BA4BA358027996CE1CDA272C9E6 /* CalendarView.m */; };
+		073C26DC213774580747EAA64D295E0D /* CVCalendarDayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC881FC11FC2668892C8409D4387FBB4 /* CVCalendarDayView.swift */; };
+		0DA66958B3CD573C33D6F6EAF8530E00 /* CVSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFBB5FC29FE9F96E2FBF07BE8768F023 /* CVSet.swift */; };
+		12F4699C55843DAF113140F7D7F52707 /* CVCalendarDayViewControlCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E64FEF56089C6E375BBFD18E7F682A3 /* CVCalendarDayViewControlCoordinator.swift */; };
+		13D6925362BFCEFC2C5368A83571594E /* CVCalendarViewAnimatorDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FC43996CB5EF0269EBB19AD6D017FC3 /* CVCalendarViewAnimatorDelegate.swift */; };
+		1480F4923DBBF217F60572EEECB4027C /* AFNetworkActivityIndicatorManager.h in Headers */ = {isa = PBXBuildFile; fileRef = C793A998E018FE2CEAE968B8D110C2A6 /* AFNetworkActivityIndicatorManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		14E6C312C59CBB7B6EA2392FCB55BB30 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80FF44178312A86C7B9C1F8431F75735 /* Foundation.framework */; };
+		174202BD6AE0E4A41F5CE66E975EAE52 /* UIRefreshControl+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 24772D19E98C8F17A170F6DE51F886AA /* UIRefreshControl+AFNetworking.m */; };
+		192AC43D2F848129D2CAC66DAAF6CA35 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2EDC82E26C0F346EB4C7A4C4C5A0E864 /* Security.framework */; };
+		1E5B8F12ED7CC40ECDB9B1F755F387E5 /* UIActivityIndicatorView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 3196E9A2258597F4714B709CCB374718 /* UIActivityIndicatorView+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1FAA30E217F73F611D44FDFA00DF3799 /* UIColor+Hex.m in Sources */ = {isa = PBXBuildFile; fileRef = 15BA7263969759178482DB9DF833F396 /* UIColor+Hex.m */; };
+		20607BE2B1E5F31765026E5AC64DB27D /* AFSecurityPolicy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9902D4DDAE3BB4767703D91173E810E4 /* AFSecurityPolicy.m */; };
+		20EE8030FCF2402DAC7F1C9B9DDAEF79 /* AFURLRequestSerialization.h in Headers */ = {isa = PBXBuildFile; fileRef = 85DAF5CC138B4E1E217A1C8ECF4BA026 /* AFURLRequestSerialization.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		238B2E3826D2BEBE675DDABAE4CC086F /* CVPresent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 290AC44C4FC9B4BBF92C6EC6041395A0 /* CVPresent.swift */; };
+		2D32F030D553ED2363623FDCCBE79DAA /* NSString+CalendarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F861A85B9A0429694763548FB32DD66 /* NSString+CalendarView.m */; };
+		2E8A32ED46194EDBE22146271F6D26DE /* UIImageView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 32331F420321EFE0F44268802AF94393 /* UIImageView+AFNetworking.m */; };
+		2EA9CD945E6E8BDA1C8CBBF638B53E87 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80FF44178312A86C7B9C1F8431F75735 /* Foundation.framework */; };
+		313622120D4AB4BC8040BD79194658D8 /* UIColor+Hex-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 235244D8CD8893AD7CF2B83588D5B033 /* UIColor+Hex-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		36E9279DE56AE5A526AB4DA972C926C1 /* UIColor+Hex-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 794ED47F09E6DF72D88DF6D285034E8F /* UIColor+Hex-dummy.m */; };
+		3901566B50B0207B06C62A398577F22B /* NSDate+CalendarView.m in Sources */ = {isa = PBXBuildFile; fileRef = A5CE5ECBA12660F2BD89378B177DCC4D /* NSDate+CalendarView.m */; };
+		3972CC8C863F998B6229E51AD687A5A0 /* CVWeekdaySymbolType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 440CFF331E0AC1C748F271EC78DDC915 /* CVWeekdaySymbolType.swift */; };
+		3A8FEAE440CCFCDBACD234FDDDF2F85E /* CVAuxiliaryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFB26FB8CD0545B407D8CE2844156943 /* CVAuxiliaryView.swift */; };
+		3B38857B6B35C7FFBA0F1B2AF04F5925 /* NSString+CalendarView.h in Headers */ = {isa = PBXBuildFile; fileRef = DEABD95B9D3757930EAC2E754E29A340 /* NSString+CalendarView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3D2789FC760A97301909F0B1201626CD /* AFNetworking-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B117632FEE80AD76AB88F17FA7CA836F /* AFNetworking-dummy.m */; };
+		3E4E86807D3A5A9967BCD1E4698D93A2 /* CVCalendarViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 978B7BD6BA0628BD7DA7B89F2A7F94A1 /* CVCalendarViewDelegate.swift */; };
+		3F1BC9BAFFEEABB1ABC7614DF0FC97D5 /* AFAutoPurgingImageCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E43A2B80B1EAF493A1792E35AB15C6F /* AFAutoPurgingImageCache.m */; };
+		44B68E0B8596B5BC374AE84CB9C196C0 /* CVRange.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B6805574BD861BB5A0E020E7FC34085 /* CVRange.swift */; };
+		4C72F2B347DFC845011AD16C7CC94D2E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80FF44178312A86C7B9C1F8431F75735 /* Foundation.framework */; };
+		4DEB044A998F50CBEEDBF96602C6C982 /* CVCalendarMonthView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8511C569A88992F19A26BF74DCD66A3 /* CVCalendarMonthView.swift */; };
+		4ECA9BE68D373E094EFA019CC4EA1720 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F28310C109F80A2823B80B134627E5D8 /* CoreGraphics.framework */; };
+		4FE3D0FC60D1370E831CBFF9680FA8EB /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B0A15003DCEEBA4FDF7ABE901F172CE /* MobileCoreServices.framework */; };
+		515D19E7B94022ED7E9CFAE731BED7DC /* CVCalendarViewPresentationMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CC730D815F1112D7DE92A67C01A2C87 /* CVCalendarViewPresentationMode.swift */; };
+		560698A4D707DCBCC1C8F98BC9B89B23 /* AFURLSessionManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 0CF0960EF8A7E3CF7F9B210BB43C1469 /* AFURLSessionManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5808B477EFF509D810B5CDCFDC944F80 /* AFImageDownloader.h in Headers */ = {isa = PBXBuildFile; fileRef = 32CF53A7486E797282768161A82F3E11 /* AFImageDownloader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5FE99C7F6A4939E44F9E4F941B575981 /* CVStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8B9FBF51D2776680C628AC0334369A2 /* CVStatus.swift */; };
+		5FF6453E55785669885F626B853FD2AA /* UIProgressView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = CF69056759EB5F6F7C1805D456475A1A /* UIProgressView+AFNetworking.m */; };
+		60E3009342BEE96D32C546BE2DB60052 /* UIImageView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 3E5DD72266C9B26B9F729E0E9C749DEC /* UIImageView+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		61D37DF116E99C6C9F835DAB5D0783D8 /* CVCalendarMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEBB59C7640A29FD44B98B3258FAA9C1 /* CVCalendarMenuView.swift */; };
+		625EAA84A3EF785A0FD82D4F378817B5 /* CVCalendarWeekday.swift in Sources */ = {isa = PBXBuildFile; fileRef = C581E64342A7613675467083D3DABA39 /* CVCalendarWeekday.swift */; };
+		635C3F414A3E88118EDCE22D9A7A489D /* Pods-FaithMingle-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 766E48883F385C12E4F287E61E02E0EF /* Pods-FaithMingle-dummy.m */; };
+		659960F7E28E993E08CCC1E8A383E710 /* UIKit+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 38ED61041AD8E198A3EB6456DC936E77 /* UIKit+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		68152D921ABF6A423C192C04FDF94F0F /* AFNetworkReachabilityManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 386A7FC57520DAB966D78BF3C631BD46 /* AFNetworkReachabilityManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		688E37A2E29646148D380D9034875174 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 343DFBED3469B92704E04E700E1DFF67 /* SystemConfiguration.framework */; };
+		68A38977EBAE334DC3C22386D00D2622 /* AFNetworkReachabilityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CF67F2A1B380E922C3AAF1F3B9A43AA /* AFNetworkReachabilityManager.m */; };
+		6D46E1297361373F5B5A5B8D846BA5DD /* CVCalendar-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A98935FB4BD04DD9B690D5CA864DBCFE /* CVCalendar-dummy.m */; };
+		6ED4ABEE8A5F51F5ECB59FA1781D29C6 /* UIActivityIndicatorView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = F729C60BF359BAAF62656B11A15977AC /* UIActivityIndicatorView+AFNetworking.m */; };
+		707B1A7541C8DBDDE8C27896A61370BE /* AFURLSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BC2E0ADFA9846CE393E55FDB4E6BB71 /* AFURLSessionManager.m */; };
+		7332F15718920917F544F35CE2C038AA /* AFURLResponseSerialization.h in Headers */ = {isa = PBXBuildFile; fileRef = 022B4F1F7A8F11A8EAD1B88CAFC4E494 /* AFURLResponseSerialization.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		81B617F8D26BB10C5726D75E85D21EB7 /* UIButton+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 6134A76D67F5C2B352A488D76C362093 /* UIButton+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		844253089C3E85DDB245A0751397A733 /* CVCalendarMenuViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84DE29C6802831A09A7AEE0BD26A8C57 /* CVCalendarMenuViewDelegate.swift */; };
+		905EB0360D4444C7DEF843E3417AAB91 /* CVScrollDirection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 339E74C128EAB97B8AC73AF0ACEC8074 /* CVScrollDirection.swift */; };
+		91ABD34237E1FD73FF54C010874D7C1B /* CVCalendarTouchController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFA6DFAEEB8925AEB29C35D88C2B1DB6 /* CVCalendarTouchController.swift */; };
+		9627F682ACDA9A4C4CBCC12BB9682062 /* Calendar-iOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 19B9E79088BADD94992E85EF1F7FBE22 /* Calendar-iOS-dummy.m */; };
+		9A0595107AA93AADE46E647191208DFC /* CVCalendarContentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA23AED5E453B517C9B6498B6E7F7272 /* CVCalendarContentViewController.swift */; };
+		9AE8FD2C1158EA4F0E2445727BB8F410 /* Pods-FaithMingle-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 30BE726B32CF9C35FCF7682594DD6E25 /* Pods-FaithMingle-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9CEBB0BE64DEDC5BF380234F3D685DC2 /* CVDate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75624FC859AEF1BABB4FBB5257229E8F /* CVDate.swift */; };
+		9DF03FB4FA0FBF74BF2007B8D0639121 /* CalendarView.h in Headers */ = {isa = PBXBuildFile; fileRef = 8143D50E6B19B2C47A9A61A04C9C11A3 /* CalendarView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9E1E90DED74B73ECE53C9AD76DE53E2D /* UIImage+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 119E8162BB00CE323C3426DFBE56DE67 /* UIImage+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A26CD8D9D6359BA9ED28F92201B0B966 /* CVCalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A1D2E137982992C3640344AEB43D31E /* CVCalendarView.swift */; };
+		A462945883F7729B185B64B679A6BFBE /* UIWebView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AE0008115D3B637D7F7734F82274BD2 /* UIWebView+AFNetworking.m */; };
+		A6C6019D45BE62C61210A9CC619368EF /* AFNetworkActivityIndicatorManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 87BABDAFAB4C28F53340B8525907456F /* AFNetworkActivityIndicatorManager.m */; };
+		AB39AC9746E7575D7449700475E41B0B /* AFHTTPSessionManager.h in Headers */ = {isa = PBXBuildFile; fileRef = F28428267E5960F92C4230845D9209FC /* AFHTTPSessionManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AE2A07407FB50BA249984DC0620E84C0 /* UIWebView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = FDAC02C24FB7FA09E6C4C963626086D0 /* UIWebView+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AF03C11A1FAC8132AD3749D8F541701A /* UIButton+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = E1E4E542F06FEAA6BE2FABDBCA86446F /* UIButton+AFNetworking.m */; };
+		B2D0AE36DE9696727693145A4B2E7EBA /* Calendar-iOS-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2BE83C13FC430D26E5400B8EC66925FE /* Calendar-iOS-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B5852322ADE88AAD56EE042B80BA81E4 /* AFURLResponseSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 1571B042D0912788E62CBA8F9A8626CB /* AFURLResponseSerialization.m */; };
+		B99FAFBBC58F176BCBAA61124A21C14B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80FF44178312A86C7B9C1F8431F75735 /* Foundation.framework */; };
+		BCEBCFFB442184A79FF6CDC624C9DA14 /* CVCalendarManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55D67AEA9D34621C526E9FC0985CBA1A /* CVCalendarManager.swift */; };
+		BF46D0E4A864D920B4854153FFE58BC1 /* CVCalendarViewAppearanceDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D068F3AE44C21C05158548F13F7FD276 /* CVCalendarViewAppearanceDelegate.swift */; };
+		C2DD28375E1F0B1D0D1D2E4E607C499F /* AFSecurityPolicy.h in Headers */ = {isa = PBXBuildFile; fileRef = 15427DFE4EF647FE78E1E2406B9390CC /* AFSecurityPolicy.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C531C9653E4A821D8AE34025A4885C89 /* CVCalendarViewAppearance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8758F4935FF27C2651DA21462D8F4AFA /* CVCalendarViewAppearance.swift */; };
+		C6354FEC7728A4C86DAD8092509BA7D4 /* UIRefreshControl+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 55787E61E621EB80E53F988068E1DF87 /* UIRefreshControl+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CAC483EF637FB4A2C2E2FC75BA631B87 /* AFAutoPurgingImageCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 62204E615BABB348BF92D93337168649 /* AFAutoPurgingImageCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CC1E6FD4822C7AA9C7DCFD356A876E76 /* CVCalendarViewAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAF683DF85C1824E29E1EDBB11394A78 /* CVCalendarViewAnimator.swift */; };
+		CD8AAFECAB4C6B68CA5DE10744AB8D47 /* CVCalendarMonthContentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F06D7EA435C5AE1A28D9A727F8B5953 /* CVCalendarMonthContentViewController.swift */; };
+		CF0D6785C37913384A6FA083014EEF90 /* CVCalendarWeekView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1F362D80695AE0F77FE5A99845AA9A8 /* CVCalendarWeekView.swift */; };
+		CFA8D6B529A0EBFF0316F2629AB2556E /* AFImageDownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = 944294FC46AF73D82168DB7E1ACFB648 /* AFImageDownloader.m */; };
+		D9F4E833E37B611B432F6B5D7072DDA2 /* UIProgressView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 581955AF482F152FE513AA8D594A5768 /* UIProgressView+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DC154530E79218E2655792A9A36D7EB0 /* NSDate+CalendarView.h in Headers */ = {isa = PBXBuildFile; fileRef = 5146AFB49923AB9B641713DD2B1EA653 /* NSDate+CalendarView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DCBC69DF98EC57E310CA2C21865DB806 /* UIColor+Hex.h in Headers */ = {isa = PBXBuildFile; fileRef = 22811FAA241FD606C86312176F5BCC24 /* UIColor+Hex.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DFFA215EEAA8DDBD540076927535275C /* AFURLRequestSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = E8750A3921A5F46AA841C07D585DB056 /* AFURLRequestSerialization.m */; };
+		E0D4045AC4C1B41917FCA23A042D18B2 /* AFHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C81D64484D45EA4EE540C313A4F9912 /* AFHTTPSessionManager.m */; };
+		E1D03BEC4C981F0E5C686AAED0F1C18A /* CVShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDF1AECB1E9E8718C6561471533715A1 /* CVShape.swift */; };
+		E5EB56299699430D842F312869A8B3A1 /* CVCalendarWeekContentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACFA74749CA0206423FDB6BADE1A1C0D /* CVCalendarWeekContentViewController.swift */; };
+		E63995F9B2E9889E36B059551646F8A6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80FF44178312A86C7B9C1F8431F75735 /* Foundation.framework */; };
+		E7988678C81F7CCB95D239375FC6986D /* AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 41786972FECF6B41F5E41E570AA43CC7 /* AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EA32009C411CD65CEC55F8F711C179BC /* CVSelectionType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48D27DD63E6754B632E9BFFA3CAF8995 /* CVSelectionType.swift */; };
+		EC7CADE416A78A1CD6936018A6695126 /* AFNetworking-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F0482D1861AE8DD2AA66B362BB0A663B /* AFNetworking-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F938C1E87DAF7AA238D9BC18A9DF5AAB /* CVCalendar-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 970520B297EF7CA9EE599BD072F62837 /* CVCalendar-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1CA1C38A76B8E6AC833521574AC37AC6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DD0DCD84F6CCB5AFC9FBDD13FBE6C1F4;
+			remoteInfo = "UIColor+Hex";
+		};
+		91F3131EC410FB0A7933084E9BBD4A70 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E5AB88E8333B9568826C9AA252037278;
+			remoteInfo = CVCalendar;
+		};
+		BFC64DFE61F229244DAB9F09441ED097 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B879C0788FE6998E26E1DBFDE0F99CF5;
+			remoteInfo = "Calendar-iOS";
+		};
+		D01101E424903B1F8FECE20B6377BB6A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1C3436CEA5C3D39764C5F54374794ECB;
+			remoteInfo = AFNetworking;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		016D807FF944E031EED6A71FE16FCBF4 /* CVCalendar.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = CVCalendar.modulemap; sourceTree = "<group>"; };
+		022B4F1F7A8F11A8EAD1B88CAFC4E494 /* AFURLResponseSerialization.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFURLResponseSerialization.h; path = AFNetworking/AFURLResponseSerialization.h; sourceTree = "<group>"; };
+		0CF0960EF8A7E3CF7F9B210BB43C1469 /* AFURLSessionManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFURLSessionManager.h; path = AFNetworking/AFURLSessionManager.h; sourceTree = "<group>"; };
+		0FC43996CB5EF0269EBB19AD6D017FC3 /* CVCalendarViewAnimatorDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CVCalendarViewAnimatorDelegate.swift; path = CVCalendar/CVCalendarViewAnimatorDelegate.swift; sourceTree = "<group>"; };
+		0FE376F46EDCD6B451AFBC263A237184 /* Calendar_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Calendar_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		119E8162BB00CE323C3426DFBE56DE67 /* UIImage+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+AFNetworking.h"; path = "UIKit+AFNetworking/UIImage+AFNetworking.h"; sourceTree = "<group>"; };
+		15427DFE4EF647FE78E1E2406B9390CC /* AFSecurityPolicy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFSecurityPolicy.h; path = AFNetworking/AFSecurityPolicy.h; sourceTree = "<group>"; };
+		1571B042D0912788E62CBA8F9A8626CB /* AFURLResponseSerialization.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFURLResponseSerialization.m; path = AFNetworking/AFURLResponseSerialization.m; sourceTree = "<group>"; };
+		15BA7263969759178482DB9DF833F396 /* UIColor+Hex.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIColor+Hex.m"; path = "UIColor/UIColor+Hex.m"; sourceTree = "<group>"; };
+		17D3852FC30987344578B3E6DCF55CD3 /* Pods-FaithMingle-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FaithMingle-acknowledgements.markdown"; sourceTree = "<group>"; };
+		19B9E79088BADD94992E85EF1F7FBE22 /* Calendar-iOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Calendar-iOS-dummy.m"; sourceTree = "<group>"; };
+		1ACF45C0AC8DB0625B283F4CE9ACAA90 /* Calendar-iOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Calendar-iOS.modulemap"; sourceTree = "<group>"; };
+		1AE0008115D3B637D7F7734F82274BD2 /* UIWebView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIWebView+AFNetworking.m"; path = "UIKit+AFNetworking/UIWebView+AFNetworking.m"; sourceTree = "<group>"; };
+		1B0A15003DCEEBA4FDF7ABE901F172CE /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/MobileCoreServices.framework; sourceTree = DEVELOPER_DIR; };
+		22811FAA241FD606C86312176F5BCC24 /* UIColor+Hex.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIColor+Hex.h"; path = "UIColor/UIColor+Hex.h"; sourceTree = "<group>"; };
+		235244D8CD8893AD7CF2B83588D5B033 /* UIColor+Hex-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIColor+Hex-umbrella.h"; sourceTree = "<group>"; };
+		24772D19E98C8F17A170F6DE51F886AA /* UIRefreshControl+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIRefreshControl+AFNetworking.m"; path = "UIKit+AFNetworking/UIRefreshControl+AFNetworking.m"; sourceTree = "<group>"; };
+		25398919ECE29EF7AA2867FFF86EAD87 /* Pods-FaithMingle.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-FaithMingle.modulemap"; sourceTree = "<group>"; };
+		290AC44C4FC9B4BBF92C6EC6041395A0 /* CVPresent.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CVPresent.swift; path = CVCalendar/CVPresent.swift; sourceTree = "<group>"; };
+		2BE83C13FC430D26E5400B8EC66925FE /* Calendar-iOS-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Calendar-iOS-umbrella.h"; sourceTree = "<group>"; };
+		2C81D64484D45EA4EE540C313A4F9912 /* AFHTTPSessionManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFHTTPSessionManager.m; path = AFNetworking/AFHTTPSessionManager.m; sourceTree = "<group>"; };
+		2EDC82E26C0F346EB4C7A4C4C5A0E864 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Security.framework; sourceTree = DEVELOPER_DIR; };
+		30BE726B32CF9C35FCF7682594DD6E25 /* Pods-FaithMingle-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FaithMingle-umbrella.h"; sourceTree = "<group>"; };
+		31964BE4D23394D396298B132A862D3D /* Pods-FaithMingle-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FaithMingle-resources.sh"; sourceTree = "<group>"; };
+		3196E9A2258597F4714B709CCB374718 /* UIActivityIndicatorView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIActivityIndicatorView+AFNetworking.h"; path = "UIKit+AFNetworking/UIActivityIndicatorView+AFNetworking.h"; sourceTree = "<group>"; };
+		32331F420321EFE0F44268802AF94393 /* UIImageView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImageView+AFNetworking.m"; path = "UIKit+AFNetworking/UIImageView+AFNetworking.m"; sourceTree = "<group>"; };
+		32CF53A7486E797282768161A82F3E11 /* AFImageDownloader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFImageDownloader.h; path = "UIKit+AFNetworking/AFImageDownloader.h"; sourceTree = "<group>"; };
+		339E74C128EAB97B8AC73AF0ACEC8074 /* CVScrollDirection.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CVScrollDirection.swift; path = CVCalendar/CVScrollDirection.swift; sourceTree = "<group>"; };
+		343DFBED3469B92704E04E700E1DFF67 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/SystemConfiguration.framework; sourceTree = DEVELOPER_DIR; };
+		36A083E659E22667040C4B84F7B27A5E /* AFNetworking.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AFNetworking.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		386A7FC57520DAB966D78BF3C631BD46 /* AFNetworkReachabilityManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFNetworkReachabilityManager.h; path = AFNetworking/AFNetworkReachabilityManager.h; sourceTree = "<group>"; };
+		38ED61041AD8E198A3EB6456DC936E77 /* UIKit+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIKit+AFNetworking.h"; path = "UIKit+AFNetworking/UIKit+AFNetworking.h"; sourceTree = "<group>"; };
+		3B8DF851A3A9AC2F16EF40D42DDAF4F4 /* AFNetworking-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AFNetworking-prefix.pch"; sourceTree = "<group>"; };
+		3E5DD72266C9B26B9F729E0E9C749DEC /* UIImageView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImageView+AFNetworking.h"; path = "UIKit+AFNetworking/UIImageView+AFNetworking.h"; sourceTree = "<group>"; };
+		3E64FEF56089C6E375BBFD18E7F682A3 /* CVCalendarDayViewControlCoordinator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CVCalendarDayViewControlCoordinator.swift; path = CVCalendar/CVCalendarDayViewControlCoordinator.swift; sourceTree = "<group>"; };
+		3F1AB2E8A4AE551D5392EDE2362715A6 /* Pods-FaithMingle.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FaithMingle.debug.xcconfig"; sourceTree = "<group>"; };
+		41786972FECF6B41F5E41E570AA43CC7 /* AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFNetworking.h; path = AFNetworking/AFNetworking.h; sourceTree = "<group>"; };
+		440CFF331E0AC1C748F271EC78DDC915 /* CVWeekdaySymbolType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CVWeekdaySymbolType.swift; path = CVCalendar/CVWeekdaySymbolType.swift; sourceTree = "<group>"; };
+		48D27DD63E6754B632E9BFFA3CAF8995 /* CVSelectionType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CVSelectionType.swift; path = CVCalendar/CVSelectionType.swift; sourceTree = "<group>"; };
+		4A1D2E137982992C3640344AEB43D31E /* CVCalendarView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CVCalendarView.swift; path = CVCalendar/CVCalendarView.swift; sourceTree = "<group>"; };
+		4AA14EF6853304A2FD45F341EF337F5F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4BC2E0ADFA9846CE393E55FDB4E6BB71 /* AFURLSessionManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFURLSessionManager.m; path = AFNetworking/AFURLSessionManager.m; sourceTree = "<group>"; };
+		4CF67F2A1B380E922C3AAF1F3B9A43AA /* AFNetworkReachabilityManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFNetworkReachabilityManager.m; path = AFNetworking/AFNetworkReachabilityManager.m; sourceTree = "<group>"; };
+		4E798CAD465DF4754FAB1722F1292B80 /* UIColor+Hex-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIColor+Hex-prefix.pch"; sourceTree = "<group>"; };
+		5146AFB49923AB9B641713DD2B1EA653 /* NSDate+CalendarView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSDate+CalendarView.h"; path = "ios_calendar/Sources/NSDate+CalendarView.h"; sourceTree = "<group>"; };
+		5391FF8CC3C22D7B066D5CF346456C53 /* Pods-FaithMingle-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FaithMingle-acknowledgements.plist"; sourceTree = "<group>"; };
+		55787E61E621EB80E53F988068E1DF87 /* UIRefreshControl+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIRefreshControl+AFNetworking.h"; path = "UIKit+AFNetworking/UIRefreshControl+AFNetworking.h"; sourceTree = "<group>"; };
+		55D67AEA9D34621C526E9FC0985CBA1A /* CVCalendarManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CVCalendarManager.swift; path = CVCalendar/CVCalendarManager.swift; sourceTree = "<group>"; };
+		581955AF482F152FE513AA8D594A5768 /* UIProgressView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIProgressView+AFNetworking.h"; path = "UIKit+AFNetworking/UIProgressView+AFNetworking.h"; sourceTree = "<group>"; };
+		5E43A2B80B1EAF493A1792E35AB15C6F /* AFAutoPurgingImageCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFAutoPurgingImageCache.m; path = "UIKit+AFNetworking/AFAutoPurgingImageCache.m"; sourceTree = "<group>"; };
+		6134A76D67F5C2B352A488D76C362093 /* UIButton+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIButton+AFNetworking.h"; path = "UIKit+AFNetworking/UIButton+AFNetworking.h"; sourceTree = "<group>"; };
+		62204E615BABB348BF92D93337168649 /* AFAutoPurgingImageCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFAutoPurgingImageCache.h; path = "UIKit+AFNetworking/AFAutoPurgingImageCache.h"; sourceTree = "<group>"; };
+		6CC730D815F1112D7DE92A67C01A2C87 /* CVCalendarViewPresentationMode.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CVCalendarViewPresentationMode.swift; path = CVCalendar/CVCalendarViewPresentationMode.swift; sourceTree = "<group>"; };
+		70B891891689F12E4FC998B7C42EE64D /* UIColor+Hex.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "UIColor+Hex.modulemap"; sourceTree = "<group>"; };
+		75624FC859AEF1BABB4FBB5257229E8F /* CVDate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CVDate.swift; path = CVCalendar/CVDate.swift; sourceTree = "<group>"; };
+		766E48883F385C12E4F287E61E02E0EF /* Pods-FaithMingle-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FaithMingle-dummy.m"; sourceTree = "<group>"; };
+		77F77D88890DC5AC7ABE592B438459FB /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		794ED47F09E6DF72D88DF6D285034E8F /* UIColor+Hex-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Hex-dummy.m"; sourceTree = "<group>"; };
+		7964D21499C1206CA5ADDB8869E3D272 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		797E5340E97983DCEBADB408FD7417B8 /* UIColor+Hex.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "UIColor+Hex.xcconfig"; sourceTree = "<group>"; };
+		7A634F0D22905DB79F617295FD532CA2 /* Calendar-iOS.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Calendar-iOS.xcconfig"; sourceTree = "<group>"; };
+		7B6805574BD861BB5A0E020E7FC34085 /* CVRange.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CVRange.swift; path = CVCalendar/CVRange.swift; sourceTree = "<group>"; };
+		80FF44178312A86C7B9C1F8431F75735 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		8143D50E6B19B2C47A9A61A04C9C11A3 /* CalendarView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CalendarView.h; path = ios_calendar/Sources/CalendarView.h; sourceTree = "<group>"; };
+		83136C1E0ED3E50A9543B5AF371345AA /* CVCalendar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CVCalendar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		84DE29C6802831A09A7AEE0BD26A8C57 /* CVCalendarMenuViewDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CVCalendarMenuViewDelegate.swift; path = CVCalendar/CVCalendarMenuViewDelegate.swift; sourceTree = "<group>"; };
+		85DAF5CC138B4E1E217A1C8ECF4BA026 /* AFURLRequestSerialization.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFURLRequestSerialization.h; path = AFNetworking/AFURLRequestSerialization.h; sourceTree = "<group>"; };
+		8758F4935FF27C2651DA21462D8F4AFA /* CVCalendarViewAppearance.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CVCalendarViewAppearance.swift; path = CVCalendar/CVCalendarViewAppearance.swift; sourceTree = "<group>"; };
+		87BABDAFAB4C28F53340B8525907456F /* AFNetworkActivityIndicatorManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFNetworkActivityIndicatorManager.m; path = "UIKit+AFNetworking/AFNetworkActivityIndicatorManager.m"; sourceTree = "<group>"; };
+		8AE93BBE8F0D3ACF5ED8EB6AF228C26F /* Pods-FaithMingle.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FaithMingle.release.xcconfig"; sourceTree = "<group>"; };
+		8F861A85B9A0429694763548FB32DD66 /* NSString+CalendarView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+CalendarView.m"; path = "ios_calendar/Sources/NSString+CalendarView.m"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		944294FC46AF73D82168DB7E1ACFB648 /* AFImageDownloader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFImageDownloader.m; path = "UIKit+AFNetworking/AFImageDownloader.m"; sourceTree = "<group>"; };
+		96CABA7CBC1C289A40CDE3DDEA92D9B1 /* AFNetworking.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AFNetworking.xcconfig; sourceTree = "<group>"; };
+		970520B297EF7CA9EE599BD072F62837 /* CVCalendar-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CVCalendar-umbrella.h"; sourceTree = "<group>"; };
+		978B7BD6BA0628BD7DA7B89F2A7F94A1 /* CVCalendarViewDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CVCalendarViewDelegate.swift; path = CVCalendar/CVCalendarViewDelegate.swift; sourceTree = "<group>"; };
+		9902D4DDAE3BB4767703D91173E810E4 /* AFSecurityPolicy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFSecurityPolicy.m; path = AFNetworking/AFSecurityPolicy.m; sourceTree = "<group>"; };
+		9F06D7EA435C5AE1A28D9A727F8B5953 /* CVCalendarMonthContentViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CVCalendarMonthContentViewController.swift; path = CVCalendar/CVCalendarMonthContentViewController.swift; sourceTree = "<group>"; };
+		A5CE5ECBA12660F2BD89378B177DCC4D /* NSDate+CalendarView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSDate+CalendarView.m"; path = "ios_calendar/Sources/NSDate+CalendarView.m"; sourceTree = "<group>"; };
+		A694234E708578B9199E8188F579CAB2 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A98935FB4BD04DD9B690D5CA864DBCFE /* CVCalendar-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CVCalendar-dummy.m"; sourceTree = "<group>"; };
+		ACFA74749CA0206423FDB6BADE1A1C0D /* CVCalendarWeekContentViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CVCalendarWeekContentViewController.swift; path = CVCalendar/CVCalendarWeekContentViewController.swift; sourceTree = "<group>"; };
+		AEBB59C7640A29FD44B98B3258FAA9C1 /* CVCalendarMenuView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CVCalendarMenuView.swift; path = CVCalendar/CVCalendarMenuView.swift; sourceTree = "<group>"; };
+		B117632FEE80AD76AB88F17FA7CA836F /* AFNetworking-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AFNetworking-dummy.m"; sourceTree = "<group>"; };
+		B1F362D80695AE0F77FE5A99845AA9A8 /* CVCalendarWeekView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CVCalendarWeekView.swift; path = CVCalendar/CVCalendarWeekView.swift; sourceTree = "<group>"; };
+		B6DA16BFD8F2EC0717229BAED8057481 /* CVCalendar.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CVCalendar.xcconfig; sourceTree = "<group>"; };
+		B94B2F61B5454CC4013107FC917EC91B /* Pods-FaithMingle-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FaithMingle-frameworks.sh"; sourceTree = "<group>"; };
+		B9BF6541CF320893439549F47DF0CFA9 /* AFNetworking.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = AFNetworking.modulemap; sourceTree = "<group>"; };
+		BAF683DF85C1824E29E1EDBB11394A78 /* CVCalendarViewAnimator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CVCalendarViewAnimator.swift; path = CVCalendar/CVCalendarViewAnimator.swift; sourceTree = "<group>"; };
+		BFBB5FC29FE9F96E2FBF07BE8768F023 /* CVSet.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CVSet.swift; path = CVCalendar/CVSet.swift; sourceTree = "<group>"; };
+		C581E64342A7613675467083D3DABA39 /* CVCalendarWeekday.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CVCalendarWeekday.swift; path = CVCalendar/CVCalendarWeekday.swift; sourceTree = "<group>"; };
+		C793A998E018FE2CEAE968B8D110C2A6 /* AFNetworkActivityIndicatorManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFNetworkActivityIndicatorManager.h; path = "UIKit+AFNetworking/AFNetworkActivityIndicatorManager.h"; sourceTree = "<group>"; };
+		CA23AED5E453B517C9B6498B6E7F7272 /* CVCalendarContentViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CVCalendarContentViewController.swift; path = CVCalendar/CVCalendarContentViewController.swift; sourceTree = "<group>"; };
+		CC690BA4BA358027996CE1CDA272C9E6 /* CalendarView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CalendarView.m; path = ios_calendar/Sources/CalendarView.m; sourceTree = "<group>"; };
+		CDF1AECB1E9E8718C6561471533715A1 /* CVShape.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CVShape.swift; path = CVCalendar/CVShape.swift; sourceTree = "<group>"; };
+		CF2022F282D025280195A82021456FE2 /* CVCalendar-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CVCalendar-prefix.pch"; sourceTree = "<group>"; };
+		CF69056759EB5F6F7C1805D456475A1A /* UIProgressView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIProgressView+AFNetworking.m"; path = "UIKit+AFNetworking/UIProgressView+AFNetworking.m"; sourceTree = "<group>"; };
+		D068F3AE44C21C05158548F13F7FD276 /* CVCalendarViewAppearanceDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CVCalendarViewAppearanceDelegate.swift; path = CVCalendar/CVCalendarViewAppearanceDelegate.swift; sourceTree = "<group>"; };
+		DA33BDA9DD7AAE6D8CF3933C2C894177 /* Pods_FaithMingle.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FaithMingle.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DEABD95B9D3757930EAC2E754E29A340 /* NSString+CalendarView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+CalendarView.h"; path = "ios_calendar/Sources/NSString+CalendarView.h"; sourceTree = "<group>"; };
+		DFB26FB8CD0545B407D8CE2844156943 /* CVAuxiliaryView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CVAuxiliaryView.swift; path = CVCalendar/CVAuxiliaryView.swift; sourceTree = "<group>"; };
+		E085E7883C43042C9FB741E613C7139E /* UIColor_Hex.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = UIColor_Hex.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E1E4E542F06FEAA6BE2FABDBCA86446F /* UIButton+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIButton+AFNetworking.m"; path = "UIKit+AFNetworking/UIButton+AFNetworking.m"; sourceTree = "<group>"; };
+		E7965AE9645314C51102140A1EB8AF66 /* Calendar-iOS-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Calendar-iOS-prefix.pch"; sourceTree = "<group>"; };
+		E8750A3921A5F46AA841C07D585DB056 /* AFURLRequestSerialization.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFURLRequestSerialization.m; path = AFNetworking/AFURLRequestSerialization.m; sourceTree = "<group>"; };
+		E8C6245A6E4765D561CEE7EDEB3DC58C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F0482D1861AE8DD2AA66B362BB0A663B /* AFNetworking-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AFNetworking-umbrella.h"; sourceTree = "<group>"; };
+		F28310C109F80A2823B80B134627E5D8 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
+		F28428267E5960F92C4230845D9209FC /* AFHTTPSessionManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFHTTPSessionManager.h; path = AFNetworking/AFHTTPSessionManager.h; sourceTree = "<group>"; };
+		F729C60BF359BAAF62656B11A15977AC /* UIActivityIndicatorView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIActivityIndicatorView+AFNetworking.m"; path = "UIKit+AFNetworking/UIActivityIndicatorView+AFNetworking.m"; sourceTree = "<group>"; };
+		F8511C569A88992F19A26BF74DCD66A3 /* CVCalendarMonthView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CVCalendarMonthView.swift; path = CVCalendar/CVCalendarMonthView.swift; sourceTree = "<group>"; };
+		F8B9FBF51D2776680C628AC0334369A2 /* CVStatus.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CVStatus.swift; path = CVCalendar/CVStatus.swift; sourceTree = "<group>"; };
+		FC881FC11FC2668892C8409D4387FBB4 /* CVCalendarDayView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CVCalendarDayView.swift; path = CVCalendar/CVCalendarDayView.swift; sourceTree = "<group>"; };
+		FDAC02C24FB7FA09E6C4C963626086D0 /* UIWebView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIWebView+AFNetworking.h"; path = "UIKit+AFNetworking/UIWebView+AFNetworking.h"; sourceTree = "<group>"; };
+		FFA6DFAEEB8925AEB29C35D88C2B1DB6 /* CVCalendarTouchController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CVCalendarTouchController.swift; path = CVCalendar/CVCalendarTouchController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		28163288C38D982BADC57CB1107F5940 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C72F2B347DFC845011AD16C7CC94D2E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5F0B8A1F1740A654E848B9D890D1C2DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14E6C312C59CBB7B6EA2392FCB55BB30 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6893FF292F4CC6E37F6EABD697ADC93C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2EA9CD945E6E8BDA1C8CBBF638B53E87 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB26E41473058341349C2B6DB57A2F06 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E63995F9B2E9889E36B059551646F8A6 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C151364F15F39F7CC60CBF9A3AB49B44 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4ECA9BE68D373E094EFA019CC4EA1720 /* CoreGraphics.framework in Frameworks */,
+				B99FAFBBC58F176BCBAA61124A21C14B /* Foundation.framework in Frameworks */,
+				4FE3D0FC60D1370E831CBFF9680FA8EB /* MobileCoreServices.framework in Frameworks */,
+				192AC43D2F848129D2CAC66DAAF6CA35 /* Security.framework in Frameworks */,
+				688E37A2E29646148D380D9034875174 /* SystemConfiguration.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		02ACADEBCBFE61C3E0AF0C6F1659B8E5 /* Pods-FaithMingle */ = {
+			isa = PBXGroup;
+			children = (
+				7964D21499C1206CA5ADDB8869E3D272 /* Info.plist */,
+				25398919ECE29EF7AA2867FFF86EAD87 /* Pods-FaithMingle.modulemap */,
+				17D3852FC30987344578B3E6DCF55CD3 /* Pods-FaithMingle-acknowledgements.markdown */,
+				5391FF8CC3C22D7B066D5CF346456C53 /* Pods-FaithMingle-acknowledgements.plist */,
+				766E48883F385C12E4F287E61E02E0EF /* Pods-FaithMingle-dummy.m */,
+				B94B2F61B5454CC4013107FC917EC91B /* Pods-FaithMingle-frameworks.sh */,
+				31964BE4D23394D396298B132A862D3D /* Pods-FaithMingle-resources.sh */,
+				30BE726B32CF9C35FCF7682594DD6E25 /* Pods-FaithMingle-umbrella.h */,
+				3F1AB2E8A4AE551D5392EDE2362715A6 /* Pods-FaithMingle.debug.xcconfig */,
+				8AE93BBE8F0D3ACF5ED8EB6AF228C26F /* Pods-FaithMingle.release.xcconfig */,
+			);
+			name = "Pods-FaithMingle";
+			path = "Target Support Files/Pods-FaithMingle";
+			sourceTree = "<group>";
+		};
+		0CDE7B423B734EDE8538ABE5A4AD7AF9 /* CVCalendar */ = {
+			isa = PBXGroup;
+			children = (
+				DFB26FB8CD0545B407D8CE2844156943 /* CVAuxiliaryView.swift */,
+				CA23AED5E453B517C9B6498B6E7F7272 /* CVCalendarContentViewController.swift */,
+				FC881FC11FC2668892C8409D4387FBB4 /* CVCalendarDayView.swift */,
+				3E64FEF56089C6E375BBFD18E7F682A3 /* CVCalendarDayViewControlCoordinator.swift */,
+				55D67AEA9D34621C526E9FC0985CBA1A /* CVCalendarManager.swift */,
+				AEBB59C7640A29FD44B98B3258FAA9C1 /* CVCalendarMenuView.swift */,
+				84DE29C6802831A09A7AEE0BD26A8C57 /* CVCalendarMenuViewDelegate.swift */,
+				9F06D7EA435C5AE1A28D9A727F8B5953 /* CVCalendarMonthContentViewController.swift */,
+				F8511C569A88992F19A26BF74DCD66A3 /* CVCalendarMonthView.swift */,
+				FFA6DFAEEB8925AEB29C35D88C2B1DB6 /* CVCalendarTouchController.swift */,
+				4A1D2E137982992C3640344AEB43D31E /* CVCalendarView.swift */,
+				BAF683DF85C1824E29E1EDBB11394A78 /* CVCalendarViewAnimator.swift */,
+				0FC43996CB5EF0269EBB19AD6D017FC3 /* CVCalendarViewAnimatorDelegate.swift */,
+				8758F4935FF27C2651DA21462D8F4AFA /* CVCalendarViewAppearance.swift */,
+				D068F3AE44C21C05158548F13F7FD276 /* CVCalendarViewAppearanceDelegate.swift */,
+				978B7BD6BA0628BD7DA7B89F2A7F94A1 /* CVCalendarViewDelegate.swift */,
+				6CC730D815F1112D7DE92A67C01A2C87 /* CVCalendarViewPresentationMode.swift */,
+				ACFA74749CA0206423FDB6BADE1A1C0D /* CVCalendarWeekContentViewController.swift */,
+				C581E64342A7613675467083D3DABA39 /* CVCalendarWeekday.swift */,
+				B1F362D80695AE0F77FE5A99845AA9A8 /* CVCalendarWeekView.swift */,
+				75624FC859AEF1BABB4FBB5257229E8F /* CVDate.swift */,
+				290AC44C4FC9B4BBF92C6EC6041395A0 /* CVPresent.swift */,
+				7B6805574BD861BB5A0E020E7FC34085 /* CVRange.swift */,
+				339E74C128EAB97B8AC73AF0ACEC8074 /* CVScrollDirection.swift */,
+				48D27DD63E6754B632E9BFFA3CAF8995 /* CVSelectionType.swift */,
+				BFBB5FC29FE9F96E2FBF07BE8768F023 /* CVSet.swift */,
+				CDF1AECB1E9E8718C6561471533715A1 /* CVShape.swift */,
+				F8B9FBF51D2776680C628AC0334369A2 /* CVStatus.swift */,
+				440CFF331E0AC1C748F271EC78DDC915 /* CVWeekdaySymbolType.swift */,
+				51FF3E6C503902D67C3F653044FDF90E /* Support Files */,
+			);
+			path = CVCalendar;
+			sourceTree = "<group>";
+		};
+		20B56609144CE204DFA8221F742B2D76 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3193CAF693F496CF6BBAA7E0BCD76004 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2985283EE2010D2A93E7B7880410F85F /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B9BF6541CF320893439549F47DF0CFA9 /* AFNetworking.modulemap */,
+				96CABA7CBC1C289A40CDE3DDEA92D9B1 /* AFNetworking.xcconfig */,
+				B117632FEE80AD76AB88F17FA7CA836F /* AFNetworking-dummy.m */,
+				3B8DF851A3A9AC2F16EF40D42DDAF4F4 /* AFNetworking-prefix.pch */,
+				F0482D1861AE8DD2AA66B362BB0A663B /* AFNetworking-umbrella.h */,
+				77F77D88890DC5AC7ABE592B438459FB /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/AFNetworking";
+			sourceTree = "<group>";
+		};
+		3193CAF693F496CF6BBAA7E0BCD76004 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				F28310C109F80A2823B80B134627E5D8 /* CoreGraphics.framework */,
+				80FF44178312A86C7B9C1F8431F75735 /* Foundation.framework */,
+				1B0A15003DCEEBA4FDF7ABE901F172CE /* MobileCoreServices.framework */,
+				2EDC82E26C0F346EB4C7A4C4C5A0E864 /* Security.framework */,
+				343DFBED3469B92704E04E700E1DFF67 /* SystemConfiguration.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		51FF3E6C503902D67C3F653044FDF90E /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				016D807FF944E031EED6A71FE16FCBF4 /* CVCalendar.modulemap */,
+				B6DA16BFD8F2EC0717229BAED8057481 /* CVCalendar.xcconfig */,
+				A98935FB4BD04DD9B690D5CA864DBCFE /* CVCalendar-dummy.m */,
+				CF2022F282D025280195A82021456FE2 /* CVCalendar-prefix.pch */,
+				970520B297EF7CA9EE599BD072F62837 /* CVCalendar-umbrella.h */,
+				4AA14EF6853304A2FD45F341EF337F5F /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/CVCalendar";
+			sourceTree = "<group>";
+		};
+		55F9A8C06E6F2E91CB2D0F0C733E435D /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A694234E708578B9199E8188F579CAB2 /* Info.plist */,
+				70B891891689F12E4FC998B7C42EE64D /* UIColor+Hex.modulemap */,
+				797E5340E97983DCEBADB408FD7417B8 /* UIColor+Hex.xcconfig */,
+				794ED47F09E6DF72D88DF6D285034E8F /* UIColor+Hex-dummy.m */,
+				4E798CAD465DF4754FAB1722F1292B80 /* UIColor+Hex-prefix.pch */,
+				235244D8CD8893AD7CF2B83588D5B033 /* UIColor+Hex-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/UIColor+Hex";
+			sourceTree = "<group>";
+		};
+		5AEE41493005D6C87BE1D946CFC5D135 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				02ACADEBCBFE61C3E0AF0C6F1659B8E5 /* Pods-FaithMingle */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		64827571B9FEFC97EBCD5FE79FFBB453 /* Serialization */ = {
+			isa = PBXGroup;
+			children = (
+				85DAF5CC138B4E1E217A1C8ECF4BA026 /* AFURLRequestSerialization.h */,
+				E8750A3921A5F46AA841C07D585DB056 /* AFURLRequestSerialization.m */,
+				022B4F1F7A8F11A8EAD1B88CAFC4E494 /* AFURLResponseSerialization.h */,
+				1571B042D0912788E62CBA8F9A8626CB /* AFURLResponseSerialization.m */,
+			);
+			name = Serialization;
+			sourceTree = "<group>";
+		};
+		65A6D42C335A5D28627FC414C8D9161F /* Reachability */ = {
+			isa = PBXGroup;
+			children = (
+				386A7FC57520DAB966D78BF3C631BD46 /* AFNetworkReachabilityManager.h */,
+				4CF67F2A1B380E922C3AAF1F3B9A43AA /* AFNetworkReachabilityManager.m */,
+			);
+			name = Reachability;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				20B56609144CE204DFA8221F742B2D76 /* Frameworks */,
+				9DCB2462F910DDA65EF3CCF44E5C9424 /* Pods */,
+				D37EE436644BDFA58ED95723C605E3EC /* Products */,
+				5AEE41493005D6C87BE1D946CFC5D135 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		9DCB2462F910DDA65EF3CCF44E5C9424 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C580BE9FDB8ECD4EB2F2ECAACF6B8DEB /* AFNetworking */,
+				A013143984C389C3097EBDC51595F1EE /* Calendar-iOS */,
+				0CDE7B423B734EDE8538ABE5A4AD7AF9 /* CVCalendar */,
+				DB4784439B662048D5C6E6D889CDD525 /* UIColor+Hex */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A013143984C389C3097EBDC51595F1EE /* Calendar-iOS */ = {
+			isa = PBXGroup;
+			children = (
+				8143D50E6B19B2C47A9A61A04C9C11A3 /* CalendarView.h */,
+				CC690BA4BA358027996CE1CDA272C9E6 /* CalendarView.m */,
+				5146AFB49923AB9B641713DD2B1EA653 /* NSDate+CalendarView.h */,
+				A5CE5ECBA12660F2BD89378B177DCC4D /* NSDate+CalendarView.m */,
+				DEABD95B9D3757930EAC2E754E29A340 /* NSString+CalendarView.h */,
+				8F861A85B9A0429694763548FB32DD66 /* NSString+CalendarView.m */,
+				DCCAC6F0F6C456064A2D3FC45D43CA91 /* Support Files */,
+			);
+			path = "Calendar-iOS";
+			sourceTree = "<group>";
+		};
+		C3AE7E1D04F3799C92255ED9FCDE1340 /* UIColor */ = {
+			isa = PBXGroup;
+			children = (
+				22811FAA241FD606C86312176F5BCC24 /* UIColor+Hex.h */,
+				15BA7263969759178482DB9DF833F396 /* UIColor+Hex.m */,
+			);
+			name = UIColor;
+			sourceTree = "<group>";
+		};
+		C580BE9FDB8ECD4EB2F2ECAACF6B8DEB /* AFNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				41786972FECF6B41F5E41E570AA43CC7 /* AFNetworking.h */,
+				CD6C7121EBC3C44FD9F0E215AD14DEC9 /* NSURLSession */,
+				65A6D42C335A5D28627FC414C8D9161F /* Reachability */,
+				EEAE994C97CA37795E30D9F5151CA0B1 /* Security */,
+				64827571B9FEFC97EBCD5FE79FFBB453 /* Serialization */,
+				2985283EE2010D2A93E7B7880410F85F /* Support Files */,
+				EEB4A281AB2E95430B3BB6EF66B9DE29 /* UIKit */,
+			);
+			path = AFNetworking;
+			sourceTree = "<group>";
+		};
+		CD6C7121EBC3C44FD9F0E215AD14DEC9 /* NSURLSession */ = {
+			isa = PBXGroup;
+			children = (
+				F28428267E5960F92C4230845D9209FC /* AFHTTPSessionManager.h */,
+				2C81D64484D45EA4EE540C313A4F9912 /* AFHTTPSessionManager.m */,
+				0CF0960EF8A7E3CF7F9B210BB43C1469 /* AFURLSessionManager.h */,
+				4BC2E0ADFA9846CE393E55FDB4E6BB71 /* AFURLSessionManager.m */,
+			);
+			name = NSURLSession;
+			sourceTree = "<group>";
+		};
+		D37EE436644BDFA58ED95723C605E3EC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				36A083E659E22667040C4B84F7B27A5E /* AFNetworking.framework */,
+				0FE376F46EDCD6B451AFBC263A237184 /* Calendar_iOS.framework */,
+				83136C1E0ED3E50A9543B5AF371345AA /* CVCalendar.framework */,
+				DA33BDA9DD7AAE6D8CF3933C2C894177 /* Pods_FaithMingle.framework */,
+				E085E7883C43042C9FB741E613C7139E /* UIColor_Hex.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DB4784439B662048D5C6E6D889CDD525 /* UIColor+Hex */ = {
+			isa = PBXGroup;
+			children = (
+				55F9A8C06E6F2E91CB2D0F0C733E435D /* Support Files */,
+				C3AE7E1D04F3799C92255ED9FCDE1340 /* UIColor */,
+			);
+			path = "UIColor+Hex";
+			sourceTree = "<group>";
+		};
+		DCCAC6F0F6C456064A2D3FC45D43CA91 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				1ACF45C0AC8DB0625B283F4CE9ACAA90 /* Calendar-iOS.modulemap */,
+				7A634F0D22905DB79F617295FD532CA2 /* Calendar-iOS.xcconfig */,
+				19B9E79088BADD94992E85EF1F7FBE22 /* Calendar-iOS-dummy.m */,
+				E7965AE9645314C51102140A1EB8AF66 /* Calendar-iOS-prefix.pch */,
+				2BE83C13FC430D26E5400B8EC66925FE /* Calendar-iOS-umbrella.h */,
+				E8C6245A6E4765D561CEE7EDEB3DC58C /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Calendar-iOS";
+			sourceTree = "<group>";
+		};
+		EEAE994C97CA37795E30D9F5151CA0B1 /* Security */ = {
+			isa = PBXGroup;
+			children = (
+				15427DFE4EF647FE78E1E2406B9390CC /* AFSecurityPolicy.h */,
+				9902D4DDAE3BB4767703D91173E810E4 /* AFSecurityPolicy.m */,
+			);
+			name = Security;
+			sourceTree = "<group>";
+		};
+		EEB4A281AB2E95430B3BB6EF66B9DE29 /* UIKit */ = {
+			isa = PBXGroup;
+			children = (
+				62204E615BABB348BF92D93337168649 /* AFAutoPurgingImageCache.h */,
+				5E43A2B80B1EAF493A1792E35AB15C6F /* AFAutoPurgingImageCache.m */,
+				32CF53A7486E797282768161A82F3E11 /* AFImageDownloader.h */,
+				944294FC46AF73D82168DB7E1ACFB648 /* AFImageDownloader.m */,
+				C793A998E018FE2CEAE968B8D110C2A6 /* AFNetworkActivityIndicatorManager.h */,
+				87BABDAFAB4C28F53340B8525907456F /* AFNetworkActivityIndicatorManager.m */,
+				3196E9A2258597F4714B709CCB374718 /* UIActivityIndicatorView+AFNetworking.h */,
+				F729C60BF359BAAF62656B11A15977AC /* UIActivityIndicatorView+AFNetworking.m */,
+				6134A76D67F5C2B352A488D76C362093 /* UIButton+AFNetworking.h */,
+				E1E4E542F06FEAA6BE2FABDBCA86446F /* UIButton+AFNetworking.m */,
+				119E8162BB00CE323C3426DFBE56DE67 /* UIImage+AFNetworking.h */,
+				3E5DD72266C9B26B9F729E0E9C749DEC /* UIImageView+AFNetworking.h */,
+				32331F420321EFE0F44268802AF94393 /* UIImageView+AFNetworking.m */,
+				38ED61041AD8E198A3EB6456DC936E77 /* UIKit+AFNetworking.h */,
+				581955AF482F152FE513AA8D594A5768 /* UIProgressView+AFNetworking.h */,
+				CF69056759EB5F6F7C1805D456475A1A /* UIProgressView+AFNetworking.m */,
+				55787E61E621EB80E53F988068E1DF87 /* UIRefreshControl+AFNetworking.h */,
+				24772D19E98C8F17A170F6DE51F886AA /* UIRefreshControl+AFNetworking.m */,
+				FDAC02C24FB7FA09E6C4C963626086D0 /* UIWebView+AFNetworking.h */,
+				1AE0008115D3B637D7F7734F82274BD2 /* UIWebView+AFNetworking.m */,
+			);
+			name = UIKit;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		320677967ED5E48F8B3C3B04AC9C43C6 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9AE8FD2C1158EA4F0E2445727BB8F410 /* Pods-FaithMingle-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6974724EECD96F65DE0BF98024097C40 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2D0AE36DE9696727693145A4B2E7EBA /* Calendar-iOS-umbrella.h in Headers */,
+				9DF03FB4FA0FBF74BF2007B8D0639121 /* CalendarView.h in Headers */,
+				DC154530E79218E2655792A9A36D7EB0 /* NSDate+CalendarView.h in Headers */,
+				3B38857B6B35C7FFBA0F1B2AF04F5925 /* NSString+CalendarView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		764478D5F4B154C5AC626E8115CC02D6 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F938C1E87DAF7AA238D9BC18A9DF5AAB /* CVCalendar-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7C6A0D99A9CC32A19A92A62F8A941139 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAC483EF637FB4A2C2E2FC75BA631B87 /* AFAutoPurgingImageCache.h in Headers */,
+				AB39AC9746E7575D7449700475E41B0B /* AFHTTPSessionManager.h in Headers */,
+				5808B477EFF509D810B5CDCFDC944F80 /* AFImageDownloader.h in Headers */,
+				1480F4923DBBF217F60572EEECB4027C /* AFNetworkActivityIndicatorManager.h in Headers */,
+				EC7CADE416A78A1CD6936018A6695126 /* AFNetworking-umbrella.h in Headers */,
+				E7988678C81F7CCB95D239375FC6986D /* AFNetworking.h in Headers */,
+				68152D921ABF6A423C192C04FDF94F0F /* AFNetworkReachabilityManager.h in Headers */,
+				C2DD28375E1F0B1D0D1D2E4E607C499F /* AFSecurityPolicy.h in Headers */,
+				20EE8030FCF2402DAC7F1C9B9DDAEF79 /* AFURLRequestSerialization.h in Headers */,
+				7332F15718920917F544F35CE2C038AA /* AFURLResponseSerialization.h in Headers */,
+				560698A4D707DCBCC1C8F98BC9B89B23 /* AFURLSessionManager.h in Headers */,
+				1E5B8F12ED7CC40ECDB9B1F755F387E5 /* UIActivityIndicatorView+AFNetworking.h in Headers */,
+				81B617F8D26BB10C5726D75E85D21EB7 /* UIButton+AFNetworking.h in Headers */,
+				9E1E90DED74B73ECE53C9AD76DE53E2D /* UIImage+AFNetworking.h in Headers */,
+				60E3009342BEE96D32C546BE2DB60052 /* UIImageView+AFNetworking.h in Headers */,
+				659960F7E28E993E08CCC1E8A383E710 /* UIKit+AFNetworking.h in Headers */,
+				D9F4E833E37B611B432F6B5D7072DDA2 /* UIProgressView+AFNetworking.h in Headers */,
+				C6354FEC7728A4C86DAD8092509BA7D4 /* UIRefreshControl+AFNetworking.h in Headers */,
+				AE2A07407FB50BA249984DC0620E84C0 /* UIWebView+AFNetworking.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A30E5D45B51E5BC61B73CDD55B4A6C07 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				313622120D4AB4BC8040BD79194658D8 /* UIColor+Hex-umbrella.h in Headers */,
+				DCBC69DF98EC57E310CA2C21865DB806 /* UIColor+Hex.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		1C3436CEA5C3D39764C5F54374794ECB /* AFNetworking */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 57800A0D1724774333EF09E83030AA81 /* Build configuration list for PBXNativeTarget "AFNetworking" */;
+			buildPhases = (
+				1F17F426378DF5EC8DFB10304B8C4BA4 /* Sources */,
+				C151364F15F39F7CC60CBF9A3AB49B44 /* Frameworks */,
+				7C6A0D99A9CC32A19A92A62F8A941139 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AFNetworking;
+			productName = AFNetworking;
+			productReference = 36A083E659E22667040C4B84F7B27A5E /* AFNetworking.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		36B8FA74C4DE3AF5F05D922CA433642D /* Pods-FaithMingle */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4E634490D2AE49D3F97F7CA8073750D6 /* Build configuration list for PBXNativeTarget "Pods-FaithMingle" */;
+			buildPhases = (
+				A7D0368479D2012059024FAA1F3CF417 /* Sources */,
+				AB26E41473058341349C2B6DB57A2F06 /* Frameworks */,
+				320677967ED5E48F8B3C3B04AC9C43C6 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				308B3F3CF90E8FF34805995215BA6D66 /* PBXTargetDependency */,
+				E805586BE958F36792F1EB9AA580A8FE /* PBXTargetDependency */,
+				2266D0A5919D90762BDCF4B6A64A5270 /* PBXTargetDependency */,
+				7F0634BC045374CC8885BB8623F67356 /* PBXTargetDependency */,
+			);
+			name = "Pods-FaithMingle";
+			productName = "Pods-FaithMingle";
+			productReference = DA33BDA9DD7AAE6D8CF3933C2C894177 /* Pods_FaithMingle.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		B879C0788FE6998E26E1DBFDE0F99CF5 /* Calendar-iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F1321ED15000892D7B803F0D5977DB78 /* Build configuration list for PBXNativeTarget "Calendar-iOS" */;
+			buildPhases = (
+				DB9A3B76069C26830BFFEE9C0E6D04E7 /* Sources */,
+				28163288C38D982BADC57CB1107F5940 /* Frameworks */,
+				6974724EECD96F65DE0BF98024097C40 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Calendar-iOS";
+			productName = "Calendar-iOS";
+			productReference = 0FE376F46EDCD6B451AFBC263A237184 /* Calendar_iOS.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		DD0DCD84F6CCB5AFC9FBDD13FBE6C1F4 /* UIColor+Hex */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0CE9359B225F4EC53FFCB30E3DC32930 /* Build configuration list for PBXNativeTarget "UIColor+Hex" */;
+			buildPhases = (
+				F1BC6FA5C9E59CBDFAEC99ECA3F4476D /* Sources */,
+				6893FF292F4CC6E37F6EABD697ADC93C /* Frameworks */,
+				A30E5D45B51E5BC61B73CDD55B4A6C07 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "UIColor+Hex";
+			productName = "UIColor+Hex";
+			productReference = E085E7883C43042C9FB741E613C7139E /* UIColor_Hex.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E5AB88E8333B9568826C9AA252037278 /* CVCalendar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6962BE72FA0CC20307963FDB10F85BBA /* Build configuration list for PBXNativeTarget "CVCalendar" */;
+			buildPhases = (
+				B114AFD5FF3A1BD1B89BD19DBDBC281B /* Sources */,
+				5F0B8A1F1740A654E848B9D890D1C2DA /* Frameworks */,
+				764478D5F4B154C5AC626E8115CC02D6 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CVCalendar;
+			productName = CVCalendar;
+			productReference = 83136C1E0ED3E50A9543B5AF371345AA /* CVCalendar.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+				TargetAttributes = {
+					1C3436CEA5C3D39764C5F54374794ECB = {
+						LastSwiftMigration = 0800;
+					};
+					36B8FA74C4DE3AF5F05D922CA433642D = {
+						LastSwiftMigration = 0800;
+					};
+					B879C0788FE6998E26E1DBFDE0F99CF5 = {
+						LastSwiftMigration = 0800;
+					};
+					DD0DCD84F6CCB5AFC9FBDD13FBE6C1F4 = {
+						LastSwiftMigration = 0800;
+					};
+					E5AB88E8333B9568826C9AA252037278 = {
+						LastSwiftMigration = 0800;
+					};
+				};
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = D37EE436644BDFA58ED95723C605E3EC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1C3436CEA5C3D39764C5F54374794ECB /* AFNetworking */,
+				B879C0788FE6998E26E1DBFDE0F99CF5 /* Calendar-iOS */,
+				E5AB88E8333B9568826C9AA252037278 /* CVCalendar */,
+				36B8FA74C4DE3AF5F05D922CA433642D /* Pods-FaithMingle */,
+				DD0DCD84F6CCB5AFC9FBDD13FBE6C1F4 /* UIColor+Hex */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1F17F426378DF5EC8DFB10304B8C4BA4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F1BC9BAFFEEABB1ABC7614DF0FC97D5 /* AFAutoPurgingImageCache.m in Sources */,
+				E0D4045AC4C1B41917FCA23A042D18B2 /* AFHTTPSessionManager.m in Sources */,
+				CFA8D6B529A0EBFF0316F2629AB2556E /* AFImageDownloader.m in Sources */,
+				A6C6019D45BE62C61210A9CC619368EF /* AFNetworkActivityIndicatorManager.m in Sources */,
+				3D2789FC760A97301909F0B1201626CD /* AFNetworking-dummy.m in Sources */,
+				68A38977EBAE334DC3C22386D00D2622 /* AFNetworkReachabilityManager.m in Sources */,
+				20607BE2B1E5F31765026E5AC64DB27D /* AFSecurityPolicy.m in Sources */,
+				DFFA215EEAA8DDBD540076927535275C /* AFURLRequestSerialization.m in Sources */,
+				B5852322ADE88AAD56EE042B80BA81E4 /* AFURLResponseSerialization.m in Sources */,
+				707B1A7541C8DBDDE8C27896A61370BE /* AFURLSessionManager.m in Sources */,
+				6ED4ABEE8A5F51F5ECB59FA1781D29C6 /* UIActivityIndicatorView+AFNetworking.m in Sources */,
+				AF03C11A1FAC8132AD3749D8F541701A /* UIButton+AFNetworking.m in Sources */,
+				2E8A32ED46194EDBE22146271F6D26DE /* UIImageView+AFNetworking.m in Sources */,
+				5FF6453E55785669885F626B853FD2AA /* UIProgressView+AFNetworking.m in Sources */,
+				174202BD6AE0E4A41F5CE66E975EAE52 /* UIRefreshControl+AFNetworking.m in Sources */,
+				A462945883F7729B185B64B679A6BFBE /* UIWebView+AFNetworking.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7D0368479D2012059024FAA1F3CF417 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				635C3F414A3E88118EDCE22D9A7A489D /* Pods-FaithMingle-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B114AFD5FF3A1BD1B89BD19DBDBC281B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A8FEAE440CCFCDBACD234FDDDF2F85E /* CVAuxiliaryView.swift in Sources */,
+				6D46E1297361373F5B5A5B8D846BA5DD /* CVCalendar-dummy.m in Sources */,
+				9A0595107AA93AADE46E647191208DFC /* CVCalendarContentViewController.swift in Sources */,
+				073C26DC213774580747EAA64D295E0D /* CVCalendarDayView.swift in Sources */,
+				12F4699C55843DAF113140F7D7F52707 /* CVCalendarDayViewControlCoordinator.swift in Sources */,
+				BCEBCFFB442184A79FF6CDC624C9DA14 /* CVCalendarManager.swift in Sources */,
+				61D37DF116E99C6C9F835DAB5D0783D8 /* CVCalendarMenuView.swift in Sources */,
+				844253089C3E85DDB245A0751397A733 /* CVCalendarMenuViewDelegate.swift in Sources */,
+				CD8AAFECAB4C6B68CA5DE10744AB8D47 /* CVCalendarMonthContentViewController.swift in Sources */,
+				4DEB044A998F50CBEEDBF96602C6C982 /* CVCalendarMonthView.swift in Sources */,
+				91ABD34237E1FD73FF54C010874D7C1B /* CVCalendarTouchController.swift in Sources */,
+				A26CD8D9D6359BA9ED28F92201B0B966 /* CVCalendarView.swift in Sources */,
+				CC1E6FD4822C7AA9C7DCFD356A876E76 /* CVCalendarViewAnimator.swift in Sources */,
+				13D6925362BFCEFC2C5368A83571594E /* CVCalendarViewAnimatorDelegate.swift in Sources */,
+				C531C9653E4A821D8AE34025A4885C89 /* CVCalendarViewAppearance.swift in Sources */,
+				BF46D0E4A864D920B4854153FFE58BC1 /* CVCalendarViewAppearanceDelegate.swift in Sources */,
+				3E4E86807D3A5A9967BCD1E4698D93A2 /* CVCalendarViewDelegate.swift in Sources */,
+				515D19E7B94022ED7E9CFAE731BED7DC /* CVCalendarViewPresentationMode.swift in Sources */,
+				E5EB56299699430D842F312869A8B3A1 /* CVCalendarWeekContentViewController.swift in Sources */,
+				625EAA84A3EF785A0FD82D4F378817B5 /* CVCalendarWeekday.swift in Sources */,
+				CF0D6785C37913384A6FA083014EEF90 /* CVCalendarWeekView.swift in Sources */,
+				9CEBB0BE64DEDC5BF380234F3D685DC2 /* CVDate.swift in Sources */,
+				238B2E3826D2BEBE675DDABAE4CC086F /* CVPresent.swift in Sources */,
+				44B68E0B8596B5BC374AE84CB9C196C0 /* CVRange.swift in Sources */,
+				905EB0360D4444C7DEF843E3417AAB91 /* CVScrollDirection.swift in Sources */,
+				EA32009C411CD65CEC55F8F711C179BC /* CVSelectionType.swift in Sources */,
+				0DA66958B3CD573C33D6F6EAF8530E00 /* CVSet.swift in Sources */,
+				E1D03BEC4C981F0E5C686AAED0F1C18A /* CVShape.swift in Sources */,
+				5FE99C7F6A4939E44F9E4F941B575981 /* CVStatus.swift in Sources */,
+				3972CC8C863F998B6229E51AD687A5A0 /* CVWeekdaySymbolType.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB9A3B76069C26830BFFEE9C0E6D04E7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9627F682ACDA9A4C4CBCC12BB9682062 /* Calendar-iOS-dummy.m in Sources */,
+				038AF846FD8C0D72FA4F10B474E03220 /* CalendarView.m in Sources */,
+				3901566B50B0207B06C62A398577F22B /* NSDate+CalendarView.m in Sources */,
+				2D32F030D553ED2363623FDCCBE79DAA /* NSString+CalendarView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1BC6FA5C9E59CBDFAEC99ECA3F4476D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36E9279DE56AE5A526AB4DA972C926C1 /* UIColor+Hex-dummy.m in Sources */,
+				1FAA30E217F73F611D44FDFA00DF3799 /* UIColor+Hex.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2266D0A5919D90762BDCF4B6A64A5270 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Calendar-iOS";
+			target = B879C0788FE6998E26E1DBFDE0F99CF5 /* Calendar-iOS */;
+			targetProxy = BFC64DFE61F229244DAB9F09441ED097 /* PBXContainerItemProxy */;
+		};
+		308B3F3CF90E8FF34805995215BA6D66 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AFNetworking;
+			target = 1C3436CEA5C3D39764C5F54374794ECB /* AFNetworking */;
+			targetProxy = D01101E424903B1F8FECE20B6377BB6A /* PBXContainerItemProxy */;
+		};
+		7F0634BC045374CC8885BB8623F67356 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "UIColor+Hex";
+			target = DD0DCD84F6CCB5AFC9FBDD13FBE6C1F4 /* UIColor+Hex */;
+			targetProxy = 1CA1C38A76B8E6AC833521574AC37AC6 /* PBXContainerItemProxy */;
+		};
+		E805586BE958F36792F1EB9AA580A8FE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CVCalendar;
+			target = E5AB88E8333B9568826C9AA252037278 /* CVCalendar */;
+			targetProxy = 91F3131EC410FB0A7933084E9BBD4A70 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0D4BD6B016DB856B81234FC60FA6D0D1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B6DA16BFD8F2EC0717229BAED8057481 /* CVCalendar.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/CVCalendar/CVCalendar-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CVCalendar/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/CVCalendar/CVCalendar.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = CVCalendar;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		1CDC6B118667D65A6A70376DF415E196 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 797E5340E97983DCEBADB408FD7417B8 /* UIColor+Hex.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/UIColor+Hex/UIColor+Hex-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/UIColor+Hex/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/UIColor+Hex/UIColor+Hex.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = UIColor_Hex;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		59B042A655B7C20CBAB90E385BF4E4C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		61FC5818476EB5CEFFEDA51B68A4E10F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3F1AB2E8A4AE551D5392EDE2362715A6 /* Pods-FaithMingle.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-FaithMingle/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FaithMingle/Pods-FaithMingle.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_FaithMingle;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		63F5226BE64487FF23DC0232BE8D2465 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8AE93BBE8F0D3ACF5ED8EB6AF228C26F /* Pods-FaithMingle.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-FaithMingle/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FaithMingle/Pods-FaithMingle.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_FaithMingle;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		85A413600BCCE36A66B22EF32500034B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 797E5340E97983DCEBADB408FD7417B8 /* UIColor+Hex.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/UIColor+Hex/UIColor+Hex-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/UIColor+Hex/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/UIColor+Hex/UIColor+Hex.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = UIColor_Hex;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8ABCB52AB520C5C843A0C13005FD6D08 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7A634F0D22905DB79F617295FD532CA2 /* Calendar-iOS.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Calendar-iOS/Calendar-iOS-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Calendar-iOS/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Calendar-iOS/Calendar-iOS.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = Calendar_iOS;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		951F48978CA635AFEDB56581A69DE25A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 96CABA7CBC1C289A40CDE3DDEA92D9B1 /* AFNetworking.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/AFNetworking/AFNetworking-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AFNetworking/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/AFNetworking/AFNetworking.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = AFNetworking;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B7324857C38B065FEB1EEE3105C2367A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C42CB0CE464F1CBC045395096D483839 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B6DA16BFD8F2EC0717229BAED8057481 /* CVCalendar.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/CVCalendar/CVCalendar-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CVCalendar/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/CVCalendar/CVCalendar.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = CVCalendar;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		CB40AA5EBE56ED7ED9E3FE65FD3667B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 96CABA7CBC1C289A40CDE3DDEA92D9B1 /* AFNetworking.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/AFNetworking/AFNetworking-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AFNetworking/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/AFNetworking/AFNetworking.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = AFNetworking;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D36878F173CA733E466280B746C06F56 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7A634F0D22905DB79F617295FD532CA2 /* Calendar-iOS.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Calendar-iOS/Calendar-iOS-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Calendar-iOS/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Calendar-iOS/Calendar-iOS.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = Calendar_iOS;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0CE9359B225F4EC53FFCB30E3DC32930 /* Build configuration list for PBXNativeTarget "UIColor+Hex" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				85A413600BCCE36A66B22EF32500034B /* Debug */,
+				1CDC6B118667D65A6A70376DF415E196 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				59B042A655B7C20CBAB90E385BF4E4C7 /* Debug */,
+				B7324857C38B065FEB1EEE3105C2367A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4E634490D2AE49D3F97F7CA8073750D6 /* Build configuration list for PBXNativeTarget "Pods-FaithMingle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				61FC5818476EB5CEFFEDA51B68A4E10F /* Debug */,
+				63F5226BE64487FF23DC0232BE8D2465 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		57800A0D1724774333EF09E83030AA81 /* Build configuration list for PBXNativeTarget "AFNetworking" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB40AA5EBE56ED7ED9E3FE65FD3667B2 /* Debug */,
+				951F48978CA635AFEDB56581A69DE25A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6962BE72FA0CC20307963FDB10F85BBA /* Build configuration list for PBXNativeTarget "CVCalendar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0D4BD6B016DB856B81234FC60FA6D0D1 /* Debug */,
+				C42CB0CE464F1CBC045395096D483839 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F1321ED15000892D7B803F0D5977DB78 /* Build configuration list for PBXNativeTarget "Calendar-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8ABCB52AB520C5C843A0C13005FD6D08 /* Debug */,
+				D36878F173CA733E466280B746C06F56 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
